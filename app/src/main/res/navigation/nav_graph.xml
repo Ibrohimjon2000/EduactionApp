@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="uz.mobiler.lesson58_2.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/courseFragment"
+        android:name="uz.mobiler.lesson58_2.fragment.CourseFragment"
+        android:label="fragment_course"
+        tools:layout="@layout/fragment_course" />
+    <fragment
+        android:id="@+id/groupFragment"
+        android:name="uz.mobiler.lesson58_2.fragment.GroupFragment"
+        android:label="fragment_group"
+        tools:layout="@layout/fragment_group" />
+    <fragment
+        android:id="@+id/mentorFragment"
+        android:name="uz.mobiler.lesson58_2.fragment.MentorFragment"
+        android:label="fragment_mentor"
+        tools:layout="@layout/fragment_mentor" />
+    <fragment
+        android:id="@+id/courseInfoFragment"
+        android:name="uz.mobiler.lesson58_2.fragment.CourseInfoFragment"
+        android:label="fragment_course_info"
+        tools:layout="@layout/fragment_course_info" />
+    <fragment
+        android:id="@+id/mentorInfoFragment"
+        android:name="uz.mobiler.lesson58_2.fragment.MentorInfoFragment"
+        android:label="fragment_mentor_info"
+        tools:layout="@layout/fragment_mentor_info" />
+    <fragment
+        android:id="@+id/addMentorFragment"
+        android:name="uz.mobiler.lesson58_2.fragment.AddMentorFragment"
+        android:label="fragment_add_mentor"
+        tools:layout="@layout/fragment_add_mentor" />
+    <fragment
+        android:id="@+id/addStudentFragment"
+        android:name="uz.mobiler.lesson58_2.fragment.AddStudentFragment"
+        android:label="fragment_add_student"
+        tools:layout="@layout/fragment_add_student" />
+    <fragment
+        android:id="@+id/groupInfoFragment"
+        android:name="uz.mobiler.lesson58_2.fragment.GroupInfoFragment"
+        android:label="fragment_group_info"
+        tools:layout="@layout/fragment_group_info" />
+    <fragment
+        android:id="@+id/addGroupFragment"
+        android:name="uz.mobiler.lesson58_2.fragment.AddGroupFragment"
+        android:label="fragment_add_group"
+        tools:layout="@layout/fragment_add_group" />
+    <fragment
+        android:id="@+id/groupStudentFragment"
+        android:name="uz.mobiler.lesson58_2.fragment.GroupStudentFragment"
+        android:label="fragment_group_student"
+        tools:layout="@layout/fragment_group_student" />
+    <fragment
+        android:id="@+id/studentAddFragment"
+        android:name="uz.mobiler.lesson58_2.fragment.StudentAddFragment"
+        android:label="fragment_student_add"
+        tools:layout="@layout/fragment_student_add" />
+    <fragment
+        android:id="@+id/studentEditFragment"
+        android:name="uz.mobiler.lesson58_2.fragment.StudentEditFragment"
+        android:label="fragment_student_edit"
+        tools:layout="@layout/fragment_student_edit" />
+    <fragment
+        android:id="@+id/groupBeginFragment"
+        android:name="uz.mobiler.lesson58_2.fragment.GroupBeginFragment"
+        android:label="fragment_group_begin"
+        tools:layout="@layout/fragment_group_begin" />
+</navigation>
